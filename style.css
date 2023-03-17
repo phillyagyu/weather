@@ -310,3 +310,36 @@ time.now {
   padding: 0 1.6rem 1.6rem;
   max-width: 27.6rem;
 }
+
+/*Week weather*/
+.week-weather {
+  padding: 4rem;
+
+  display: flex;
+  gap: 1.2rem;
+}
+
+.day {
+  flex: 1;
+
+  display: grid;
+  justify-items: center;
+  gap: 1.6rem;
+}
+
+.day h4.title {
+  font-size: 1.4rem;
+  line-height: 1.7rem;
+  color: #DAD8F7;
+}
+
+.maxmin{
+  font-weight: 700;
+  font-size: 1.6rem;
+  line-height: 1.9rem;
+  color: #FFFFFF;
+}
+
+.maxmin span {
+  color: #C2BFF4;
+}
